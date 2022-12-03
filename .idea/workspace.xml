@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5058914-6413-49b0-bf5f-aa2b8faeda77" name="Changes" comment="Day 1, Challenges 1 and 2">
-      <change afterPath="$PROJECT_DIR$/src/day2/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e5058914-6413-49b0-bf5f-aa2b8faeda77" name="Changes" comment="Day 2, Challenge 1">
+      <change beforePath="$PROJECT_DIR$/src/day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670049123473</updated>
-      <workItem from="1670049124768" duration="3412000" />
+      <workItem from="1670049124768" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1, Challenges 1 and 2">
       <created>1670050645275</created>
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670050645275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 2, Challenge 1">
+      <created>1670052738656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670052738656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1, Challenges 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1, Challenges 1 and 2" />
+    <MESSAGE value="Day 2, Challenge 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2, Challenge 1" />
   </component>
 </project>

@@ -15,19 +15,19 @@ public class Main {
                 case "A":
                     scores[0] += 1;
                     switch (moves[1]) {
-                        case "X":
+                        case "Y":
                             scores[1] += 4;
                             scores[0] += 3;
                             System.out.println("TIE!");
                             break;
-                        case "Y":
-                            scores[1] += 8;
-                            System.out.println("PLAYER WIN!");
-                            break;
                         case "Z":
+                            scores[1] += 8;
+                            System.out.println("WIN!");
+                            break;
+                        case "X":
                             scores[1] += 3;
                             scores[0] += 6;
-                            System.out.println("COMP WIN");
+                            System.out.println("LOSE!");
                             break;
                     }
                     break;
@@ -37,7 +37,7 @@ public class Main {
                         case "X":
                             scores[1] += 1;
                             scores[0] += 6;
-                            System.out.println("COMP WIN");
+                            System.out.println("LOSE!");
                             break;
                         case "Y":
                             scores[1] += 5;
@@ -46,23 +46,23 @@ public class Main {
                             break;
                         case "Z":
                             scores[1] += 9;
-                            System.out.println("PLAYER WIN!");
+                            System.out.println("WIN!");
                             break;
                     }
                     break;
                 case "C":
                     scores[0] += 3;
                     switch (moves[1]) {
-                        case "X":
+                        case "Z":
                             scores[1] += 7;
-                            System.out.println("PLAYER WIN!");
+                            System.out.println("WIN!");
                             break;
-                        case "Y":
+                        case "X":
                             scores[1] += 2;
                             scores[0] += 6;
-                            System.out.println("COMP WIN");
+                            System.out.println("LOSE!");
                             break;
-                        case "Z":
+                        case "Y":
                             scores[1] += 6;
                             scores[0] += 3;
                             System.out.println("TIE!");
